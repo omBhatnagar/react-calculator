@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Output from "./output";
 import Button from "./button";
 import "./calculator.css";
