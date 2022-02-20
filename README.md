@@ -1,3 +1,6 @@
+# Calculator using Reactjs
+This is a simple calculator made using ReactJs that can perform basic arithmetic operations.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
