@@ -1,0 +1,74 @@
+.mainCalc {
+	width: 100%;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+}
+
+.screen {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 0;
+}
+.output-row input {
+	width: 100%;
+	margin: 0;
+	border: none;
+	text-align: right;
+	padding: 0.5em 2em;
+	color: white;
+	font-family: "poppins", sans-serif;
+	font-size: 1.2rem;
+	background-color: rgb(46, 46, 46, 0.9);
+}
+
+.output-row input:focus {
+	outline: none;
+}
+
+.red-bg {
+	background-color: rgb(255, 0, 43, 0.8);
+	border-color: rgb(255, 0, 43, 0.8);
+	color: whitesmoke;
+}
+
+.different-red {
+	background-color: rgb(233, 136, 39);
+	border-color: rgb(233, 136, 39);
+	color: whitesmoke;
+}
+
+.green-bg {
+	background-color: rgb(32, 182, 32);
+	border-color: rgb(32, 182, 32);
+	color: whitesmoke;
+}
+
+.output-row input {
+	font-size: 1.7rem;
+}
+
+@media (max-width: 636px) {
+	.different-red,
+	.red-bg {
+		font-size: 1.4rem;
+	}
+}
+@media (max-width: 485px) {
+	html {
+		font-size: 80%;
+	}
+}
+@media (max-width: 400px) {
+	html {
+		font-size: 60%;
+	}
+}
+@media (max-width: 300px) {
+	html {
+		font-size: 40%;
+	}
+}
