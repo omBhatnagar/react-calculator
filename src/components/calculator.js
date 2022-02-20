@@ -1,3 +1,5 @@
+/* eslint no-eval: 0 */
+
 import { useState } from "react";
 import Output from "./output";
 import Button from "./button";
